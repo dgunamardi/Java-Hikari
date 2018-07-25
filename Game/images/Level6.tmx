@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="64" tileheight="64" nextobjectid="165">
+ <tileset firstgid="1" name="tileset64" tilewidth="64" tileheight="64" tilecount="2912" columns="52">
+  <image source="tileset64.png" width="3328" height="3584"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="19" height="19">
+  <data encoding="csv">
+274,274,274,276,377,428,277,277,277,278,378,274,428,639,640,323,323,323,323,
+274,274,428,328,377,274,329,428,329,330,274,274,377,428,323,323,323,323,323,
+274,428,274,380,381,381,275,381,381,382,274,494,495,377,323,329,323,323,323,
+274,274,274,274,639,640,329,269,377,428,274,546,547,428,323,323,323,323,323,
+428,274,274,428,274,323,323,323,323,323,274,598,599,493,323,323,323,323,323,
+323,323,494,495,329,276,277,278,377,323,378,274,274,545,323,323,274,323,323,
+323,323,546,547,493,380,381,382,377,0,377,639,640,597,323,274,428,323,323,
+323,329,598,599,545,274,0,0,0,0,0,0,0,491,492,274,428,274,274,
+111,112,112,113,597,377,0,377,0,0,0,0,0,543,544,274,274,274,274,
+163,164,164,165,274,428,0,0,0,0,0,0,0,595,596,428,274,274,428,
+215,216,216,217,639,640,0,0,0,0,0,377,0,276,278,274,274,274,274,
+377,274,274,274,428,428,0,0,0,0,0,0,0,328,330,274,274,428,274,
+428,491,492,274,274,274,274,428,269,323,276,277,278,328,330,274,428,274,323,
+378,543,544,274,428,377,428,274,274,323,328,329,330,328,330,323,323,329,323,
+274,595,596,428,431,325,325,325,325,326,380,381,382,380,382,323,274,639,640,
+428,639,640,274,323,274,378,428,274,274,274,274,428,428,274,323,494,495,274,
+274,274,274,329,329,329,329,274,274,639,640,378,428,274,323,323,546,547,274,
+323,329,329,323,323,323,323,329,274,428,274,377,274,323,323,329,598,599,274,
+323,323,323,329,329,329,329,329,329,329,323,323,323,323,323,323,329,323,323
+</data>
+ </layer>
+ <objectgroup name="collision-wall" visible="0">
+  <object id="94" x="384" y="448">
+   <polyline points="0,0 0,320 192,320 192,448 256,448 256,320 448,320 448,0 256,0 256,-128 192,-128 192,0 0,0"/>
+  </object>
+  <object id="95" x="448" y="512">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="96" x="704" y="640">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision-stone" visible="0">
+  <object id="164" x="576" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="collision-floor" visible="0">
+  <object id="99" x="384" y="448" width="64" height="64"/>
+  <object id="100" x="448" y="448" width="64" height="64"/>
+  <object id="101" x="512" y="448" width="64" height="64"/>
+  <object id="102" x="576" y="448" width="64" height="64"/>
+  <object id="103" x="640" y="448" width="64" height="64"/>
+  <object id="104" x="704" y="448" width="64" height="64"/>
+  <object id="105" x="768" y="448" width="64" height="64"/>
+  <object id="106" x="384" y="512" width="64" height="64"/>
+  <object id="107" x="512" y="512" width="64" height="64"/>
+  <object id="108" x="576" y="512" width="64" height="64"/>
+  <object id="109" x="640" y="512" width="64" height="64"/>
+  <object id="110" x="704" y="512" width="64" height="64"/>
+  <object id="111" x="768" y="512" width="64" height="64"/>
+  <object id="112" x="384" y="576" width="64" height="64"/>
+  <object id="113" x="448" y="576" width="64" height="64"/>
+  <object id="114" x="512" y="576" width="64" height="64"/>
+  <object id="115" x="576" y="576" width="64" height="64"/>
+  <object id="116" x="640" y="576" width="64" height="64"/>
+  <object id="117" x="704" y="576" width="64" height="64"/>
+  <object id="118" x="768" y="576" width="64" height="64"/>
+  <object id="119" x="384" y="640" width="64" height="64"/>
+  <object id="120" x="448" y="640" width="64" height="64"/>
+  <object id="121" x="512" y="640" width="64" height="64"/>
+  <object id="122" x="576" y="640" width="64" height="64"/>
+  <object id="124" x="640" y="640" width="64" height="64"/>
+  <object id="125" x="768" y="640" width="64" height="64"/>
+  <object id="126" x="384" y="704" width="64" height="64"/>
+  <object id="127" x="448" y="704" width="64" height="64"/>
+  <object id="128" x="512" y="704" width="64" height="64"/>
+  <object id="129" x="576" y="704" width="64" height="64"/>
+  <object id="130" x="640" y="704" width="64" height="64"/>
+  <object id="131" x="704" y="704" width="64" height="64"/>
+  <object id="132" x="768" y="704" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="collision-env">
+  <object id="133" x="704" y="640">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="134" x="448" y="512">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="135" x="320" y="448">
+   <polyline points="0,0 256,0 256,-128"/>
+  </object>
+  <object id="137" x="640" y="320">
+   <polyline points="0,0 0,128 192,128 256,128 256,0"/>
+  </object>
+  <object id="138" x="640" y="320">
+   <polyline points="0,0 64,0 64,-128 128,-128"/>
+  </object>
+  <object id="139" x="448" y="192">
+   <polyline points="0,0 0,64 128,64 128,0"/>
+  </object>
+  <object id="140" x="256" y="256">
+   <polyline points="0,0 128,0 128,-64"/>
+  </object>
+  <object id="141" x="576" y="320">
+   <polyline points="0,0 -256,0"/>
+  </object>
+  <object id="142" x="576" y="192">
+   <polyline points="0,0 64,0 64,-128 128,-128 128,-192"/>
+  </object>
+  <object id="143" x="320" y="448">
+   <polyline points="0,0 0,64 64,64 64,128 -64,128"/>
+  </object>
+  <object id="144" x="256" y="640">
+   <polyline points="0,0 128,0 128,64 0,64"/>
+  </object>
+  <object id="145" x="512" y="768">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="146" x="640" y="832">
+   <polyline points="0,0 64,-64 128,-64 192,0 192,-128 256,-192 320,-128 320,128"/>
+  </object>
+  <object id="148" x="640" y="832">
+   <polyline points="0,0 0,128 128,128"/>
+  </object>
+  <object id="150" x="704" y="1088">
+   <polyline points="0,0 0,-64 -128,-64 -128,0"/>
+  </object>
+  <object id="151" x="64" y="832">
+   <polyline points="0,0 128,0 128,128"/>
+  </object>
+  <object id="152" x="64" y="832">
+   <polyline points="0,0 0,128"/>
+  </object>
+  <object id="153" x="128" y="384">
+   <polyline points="0,0 128,0 128,128 0,128 0,0"/>
+  </object>
+  <object id="154" x="896" y="192">
+   <polyline points="0,0 -64,0 -64,-64 -128,-64 -128,-128 -64,-128 -64,-192"/>
+  </object>
+  <object id="155" x="704" y="1024">
+   <polyline points="0,0 64,0 64,64"/>
+  </object>
+  <object id="156" x="384" y="1024">
+   <polyline points="0,0 0,-64 64,-64 64,0"/>
+  </object>
+  <object id="157" x="192" y="960">
+   <polyline points="0,0 0,64 -128,64 -128,0"/>
+  </object>
+  <object id="158" x="0" y="704">
+   <polyline points="0,0 64,0 64,64 0,64"/>
+  </object>
+  <object id="159" x="0" y="832">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="160" x="832" y="512">
+   <polyline points="0,0 0,128 128,128 128,0 0,0"/>
+  </object>
+  <object id="161" x="1216" y="896">
+   <polyline points="0,0 -128,0 -128,64 0,64"/>
+  </object>
+  <object id="162" x="768" y="1088">
+   <polyline points="0,0 0,64 -64,64 -64,0"/>
+  </object>
+  <object id="163" x="1152" y="1024">
+   <polyline points="0,0 -128,0 -128,64 -128,128"/>
+  </object>
+ </objectgroup>
+</map>

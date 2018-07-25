@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="64" tileheight="64" nextobjectid="140">
+ <tileset firstgid="1" name="tileset64" tilewidth="64" tileheight="64" tilecount="2912" columns="52">
+  <image source="tileset64.png" width="3328" height="3584"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="25">
+  <data encoding="csv">
+328,329,329,276,329,278,329,329,330,323,323,377,169,170,171,377,323,323,323,536,537,537,537,537,537,
+328,276,277,277,329,277,278,329,330,323,491,492,169,170,171,545,323,323,323,536,537,537,537,537,537,
+328,328,484,485,485,486,330,329,330,323,543,544,169,170,171,597,323,323,323,536,537,537,537,537,537,
+328,328,536,537,537,538,330,329,330,323,595,596,169,170,171,377,323,323,323,536,537,537,537,537,537,
+328,328,536,537,537,538,330,493,330,428,274,274,221,222,223,274,274,428,274,536,537,537,537,537,537,
+328,328,588,589,589,590,330,545,330,274,274,639,640,0,274,274,274,274,274,588,589,589,589,589,589,
+328,328,329,329,432,381,382,597,330,0,0,0,0,0,378,274,274,639,640,428,274,323,323,323,323,
+328,380,381,275,382,329,494,495,330,0,0,0,0,0,0,0,274,494,495,274,428,274,323,323,323,
+328,329,329,329,329,329,546,547,330,0,0,0,0,0,0,0,377,546,547,428,274,274,274,323,323,
+328,329,329,329,329,329,598,599,330,0,0,0,0,0,0,0,377,598,599,274,274,377,274,323,323,
+328,639,640,329,329,329,329,377,330,0,0,378,0,0,0,0,0,0,274,276,277,278,274,323,323,
+328,377,329,329,329,329,329,329,330,0,0,428,0,0,0,0,0,0,428,328,329,330,428,323,323,
+380,381,381,433,329,432,381,381,382,491,492,274,0,0,0,0,0,0,274,380,381,382,274,323,323,
+323,323,323,328,329,330,323,323,440,543,544,274,0,0,0,377,0,274,274,274,377,377,274,323,323,
+323,323,323,328,329,330,323,323,441,595,596,274,0,0,0,0,0,274,428,274,274,274,274,323,323,
+323,323,323,328,329,330,323,323,442,274,274,428,378,0,639,640,274,274,274,274,323,323,323,323,323,
+276,277,277,277,329,277,277,277,278,0,0,0,0,0,0,0,0,0,274,274,274,323,323,323,323,
+328,329,329,329,329,329,639,640,330,0,0,0,0,0,0,0,0,0,491,492,428,323,323,323,323,
+328,329,329,329,329,329,329,329,330,0,377,0,0,0,0,0,0,0,543,544,274,323,323,323,323,
+380,381,381,381,381,381,381,381,382,0,0,0,269,58,0,0,0,0,595,596,274,274,323,323,323,
+323,323,323,274,274,274,428,274,274,274,274,274,274,323,428,274,274,274,274,428,377,274,323,323,323,
+323,323,323,323,428,274,274,428,274,274,428,274,274,274,274,639,640,274,377,274,274,274,323,323,323,
+323,323,323,323,323,323,274,274,377,274,274,428,274,274,428,377,274,274,274,274,323,323,323,323,323,
+323,323,323,323,323,323,323,323,274,274,639,640,274,274,274,274,274,274,428,323,323,323,323,323,323,
+323,323,323,323,323,323,323,323,323,323,323,323,323,274,428,274,377,274,323,323,323,323,323,323,323
+</data>
+ </layer>
+ <objectgroup name="collision-wall" visible="0">
+  <object id="2" x="960" y="832">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="3" x="640" y="1152">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="139" x="832" y="1344">
+   <polyline points="0,0 0,-128 -64,-128 -64,-64 -256,-64 -256,-320 0,-320 0,-384 -64,-384 -64,-704 -128,-704 -128,-576 -256,-576 -256,-960 0,-960 0,-1024 64,-1024 64,-960 64,-896 192,-896 192,-704 320,-704 320,-512 256,-512 256,-384 64,-384 64,-320 320,-320 320,-128 320,-64 64,-64 64,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision-stone" visible="0">
+  <object id="5" x="832" y="320" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="collision-floor" visible="0">
+  <object id="7" x="576" y="384" width="64" height="64"/>
+  <object id="9" x="640" y="384" width="64" height="64"/>
+  <object id="10" x="704" y="384" width="64" height="64"/>
+  <object id="11" x="768" y="384" width="64" height="64"/>
+  <object id="12" x="832" y="384" width="64" height="64"/>
+  <object id="13" x="576" y="448" width="64" height="64"/>
+  <object id="14" x="640" y="448" width="64" height="64"/>
+  <object id="15" x="704" y="448" width="64" height="64"/>
+  <object id="16" x="768" y="448" width="64" height="64"/>
+  <object id="17" x="832" y="448" width="64" height="64"/>
+  <object id="18" x="896" y="448" width="64" height="64"/>
+  <object id="19" x="960" y="448" width="64" height="64"/>
+  <object id="20" x="576" y="512" width="64" height="64"/>
+  <object id="21" x="640" y="512" width="64" height="64"/>
+  <object id="23" x="704" y="512" width="64" height="64"/>
+  <object id="24" x="768" y="512" width="64" height="64"/>
+  <object id="25" x="832" y="512" width="64" height="64"/>
+  <object id="26" x="896" y="512" width="64" height="64"/>
+  <object id="27" x="960" y="512" width="64" height="64"/>
+  <object id="28" x="576" y="576" width="64" height="64"/>
+  <object id="29" x="640" y="576" width="64" height="64"/>
+  <object id="30" x="704" y="576" width="64" height="64"/>
+  <object id="31" x="768" y="576" width="64" height="64"/>
+  <object id="32" x="832" y="576" width="64" height="64"/>
+  <object id="33" x="896" y="576" width="64" height="64"/>
+  <object id="34" x="960" y="576" width="64" height="64"/>
+  <object id="35" x="576" y="640" width="64" height="64"/>
+  <object id="36" x="640" y="640" width="64" height="64"/>
+  <object id="37" x="576" y="704" width="64" height="64"/>
+  <object id="38" x="640" y="704" width="64" height="64"/>
+  <object id="39" x="768" y="640" width="64" height="64"/>
+  <object id="40" x="832" y="640" width="64" height="64"/>
+  <object id="41" x="896" y="640" width="64" height="64"/>
+  <object id="43" x="960" y="640" width="64" height="64"/>
+  <object id="44" x="1024" y="640" width="64" height="64"/>
+  <object id="45" x="1088" y="640" width="64" height="64"/>
+  <object id="46" x="768" y="704" width="64" height="64"/>
+  <object id="47" x="832" y="704" width="64" height="64"/>
+  <object id="48" x="896" y="704" width="64" height="64"/>
+  <object id="49" x="960" y="704" width="64" height="64"/>
+  <object id="50" x="1024" y="704" width="64" height="64"/>
+  <object id="51" x="1088" y="704" width="64" height="64"/>
+  <object id="52" x="768" y="768" width="64" height="64"/>
+  <object id="53" x="832" y="768" width="64" height="64"/>
+  <object id="54" x="896" y="768" width="64" height="64"/>
+  <object id="56" x="960" y="768" width="64" height="64"/>
+  <object id="57" x="1024" y="768" width="64" height="64"/>
+  <object id="58" x="1088" y="768" width="64" height="64"/>
+  <object id="59" x="768" y="832" width="64" height="64"/>
+  <object id="60" x="832" y="832" width="64" height="64"/>
+  <object id="61" x="896" y="832" width="64" height="64"/>
+  <object id="62" x="1024" y="832" width="64" height="64"/>
+  <object id="63" x="768" y="896" width="64" height="64"/>
+  <object id="64" x="832" y="896" width="64" height="64"/>
+  <object id="65" x="896" y="896" width="64" height="64"/>
+  <object id="66" x="960" y="896" width="64" height="64"/>
+  <object id="67" x="1024" y="896" width="64" height="64"/>
+  <object id="68" x="832" y="960" width="64" height="64"/>
+  <object id="70" x="576" y="1024" width="64" height="64"/>
+  <object id="71" x="640" y="1024" width="64" height="64"/>
+  <object id="73" x="704" y="1024" width="64" height="64"/>
+  <object id="74" x="768" y="1024" width="64" height="64"/>
+  <object id="75" x="832" y="1024" width="64" height="64"/>
+  <object id="76" x="896" y="1024" width="64" height="64"/>
+  <object id="77" x="960" y="1024" width="64" height="64"/>
+  <object id="79" x="1024" y="1024" width="64" height="64"/>
+  <object id="80" x="1088" y="1024" width="64" height="64"/>
+  <object id="81" x="576" y="1088" width="64" height="64"/>
+  <object id="82" x="640" y="1088" width="64" height="64"/>
+  <object id="83" x="704" y="1088" width="64" height="64"/>
+  <object id="84" x="768" y="1088" width="64" height="64"/>
+  <object id="85" x="832" y="1088" width="64" height="64"/>
+  <object id="86" x="896" y="1088" width="64" height="64"/>
+  <object id="87" x="960" y="1088" width="64" height="64"/>
+  <object id="88" x="1024" y="1088" width="64" height="64"/>
+  <object id="89" x="1088" y="1088" width="64" height="64"/>
+  <object id="90" x="576" y="1152" width="64" height="64"/>
+  <object id="92" x="704" y="1152" width="64" height="64"/>
+  <object id="93" x="768" y="1152" width="64" height="64"/>
+  <object id="95" x="832" y="1152" width="64" height="64"/>
+  <object id="96" x="896" y="1152" width="64" height="64"/>
+  <object id="97" x="960" y="1152" width="64" height="64"/>
+  <object id="98" x="1024" y="1152" width="64" height="64"/>
+  <object id="99" x="1088" y="1152" width="64" height="64"/>
+  <object id="100" x="576" y="1216" width="64" height="64"/>
+  <object id="101" x="640" y="1216" width="64" height="64"/>
+  <object id="102" x="704" y="1216" width="64" height="64"/>
+  <object id="103" x="896" y="1216" width="64" height="64"/>
+  <object id="104" x="960" y="1216" width="64" height="64"/>
+  <object id="105" x="1024" y="1216" width="64" height="64"/>
+  <object id="106" x="1088" y="1216" width="64" height="64"/>
+  <object id="138" x="832" y="1216" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="collision-env">
+  <object id="107" x="384" y="1024">
+   <polyline points="0,0 128,0 192,64 192,256 -256,256"/>
+  </object>
+  <object id="108" x="384" y="1152">
+   <polyline points="0,0 128,0 128,-64 0,-64 0,0"/>
+  </object>
+  <object id="109" x="384" y="1024">
+   <polyline points="0,0 0,-192 192,-192 192,-960"/>
+  </object>
+  <object id="110" x="448" y="704">
+   <polyline points="0,0 64,0 64,-128 64,-192 -64,-192 -64,-64 0,-64 0,0"/>
+  </object>
+  <object id="111" x="448" y="448">
+   <polyline points="0,0 64,0 64,-64 64,-128 0,-128"/>
+  </object>
+  <object id="112" x="576" y="832">
+   <polyline points="0,0 128,0 128,128 0,128 0,0"/>
+  </object>
+  <object id="113" x="704" y="704">
+   <polyline points="0,0 64,0 64,-64 0,-64 0,0"/>
+  </object>
+  <object id="114" x="768" y="960">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="116" x="896" y="960">
+   <polyline points="0,0 0,64 128,64 128,0 0,0"/>
+  </object>
+  <object id="117" x="960" y="832">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="118" x="640" y="1152">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="119" x="768" y="1216">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="120" x="512" y="1408">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="121" x="960" y="1408">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="122" x="1024" y="1536">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="123" x="1152" y="1344">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="126" x="1152" y="1280">
+   <polyline points="0,0 192,0 192,64 128,64 128,-128 0,-128 0,0"/>
+  </object>
+  <object id="127" x="1216" y="832">
+   <polyline points="0,0 64,0 64,64 192,64 192,-128 0,-128 0,0"/>
+  </object>
+  <object id="128" x="1344" y="576">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="129" x="1024" y="640">
+   <polyline points="0,0 192,0 192,-128 0,-128 0,-64"/>
+  </object>
+  <object id="130" x="896" y="384">
+   <polyline points="0,0 64,0 64,64 0,64 0,0"/>
+  </object>
+  <object id="131" x="704" y="384">
+   <polyline points="0,0 128,0 128,-64 0,-64 0,0"/>
+  </object>
+  <object id="132" x="1088" y="384">
+   <polyline points="0,0 0,64 128,64 128,0 0,0"/>
+  </object>
+  <object id="133" x="960" y="64">
+   <polyline points="0,0 0,192 64,192 64,-64 0,-64 0,0"/>
+  </object>
+  <object id="134" x="640" y="256">
+   <polyline points="0,0 128,0 128,-256 64,-256 64,-192 0,-192 0,0"/>
+  </object>
+  <object id="136" x="640" y="1472">
+   <polyline points="0,0 128,0 128,64 0,64 0,0"/>
+  </object>
+  <object id="137" x="960" y="1344">
+   <polyline points="0,0 128,0 128,64 0,64 0,0"/>
+  </object>
+ </objectgroup>
+</map>
